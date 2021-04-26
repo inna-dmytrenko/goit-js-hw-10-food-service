@@ -11,7 +11,7 @@ const theme = {
 refs.switch.addEventListener('change', themeClassList);
 
 
-function themeClassList(e) {
+function themeClassList() {
 
     if (refs.switch.checked) {
         refs.body.classList.add(theme.DARK);
